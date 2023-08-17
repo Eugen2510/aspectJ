@@ -5,9 +5,12 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         Main main = new Main();
+        SomeMethods methodForTest = new SomeMethods();
         main.setValue("<неко>");
         String valueForCheck = main.getValue();
         main.checkValue(valueForCheck);
+        methodForTest.getStringLength(valueForCheck);
+
     }
 
     public void setValue(String value) {

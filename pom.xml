@@ -28,7 +28,7 @@
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjrt</artifactId>
       <version>1.9.19</version>
-      <!--            <scope>runtime</scope>-->
+<!--                  <scope>runtime</scope>-->
     </dependency>
 
   </dependencies>
